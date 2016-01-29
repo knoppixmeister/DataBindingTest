@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:weightSum="1">
         <TextView android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:text="@{user.firstName}"
             android:layout_weight="0.14" />
 
@@ -18,8 +18,7 @@
             android:layout_height="wrap_content"
             android:text="Change"
             android:id="@+id/button"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="0.14" />
+            android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
 </layout>
